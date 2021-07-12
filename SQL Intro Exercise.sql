@@ -15,7 +15,7 @@
 -- find all employees whose first name starts with the letter ‘j’
  -- SELECT * FROM bestbuy.employees WHERE FirstName LIKE 'j%';
 -- find all Macbooks --
- -- SELECT * FROM bestbuy.products WHERE Name LIKE 'Mac%';
+ -- SELECT * FROM bestbuy.products WHERE Name LIKE '%Macbook%';
 -- find all products that are on sale
  -- SELECT * FROM bestbuy.products WHERE OnSale = 1;
 -- find the average price of all products --
